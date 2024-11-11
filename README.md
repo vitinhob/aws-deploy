@@ -170,7 +170,7 @@ vai pedir a sua chave privada(.pem) então carregue ela e clique em "descriptogr
 
  Para testar a aplicação faça um clone do repositório "https://github.com/vitinhob/aws-deploy.git" e acrescente um arquivo(.env) na raiz do projeto com os seguintes ajustes (ex: DB_NAME=compasscar3, DB_USER=root, DB_PASSWORD=7413219, DB_HOST=localhost, PORT=3000), em USER e PASSWORD serão o usuário e senha do seu banco o resto fica igual ao exemplo.
 
- Para rodar a api -> entra na pasta onde foi feito o clone do repositório do github e abara o gitbash, no terminal do git digite "npm run dev" e a aplicação irá rodar.
+ Para rodar a api -> entra na pasta onde foi feito o clone do repositório do github e abra o gitbash, no terminal do git digite "npm install" e depois "npm run dev" e a aplicação irá rodar.
 
  Para a visualização do Swagger -> basta rodar a aplicação, abrir um navegador e na url colocar "http://localhost:3000/api/v1/docs" que irá mostrar a documentação.
 
