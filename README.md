@@ -174,6 +174,10 @@ vai pedir a sua chave privada(.pem) então carregue ela e clique em "descriptogr
 
  Para a visualização do Swagger -> basta rodar a aplicação, abrir um navegador e na url colocar "http://localhost:3000/api/v1/docs" que irá mostrar a documentação.
 
+ Criação da bucket -> na sua conta aws busque por S3, no S3 clique em criar bucket, na criação de um nome para a sua bucket, em propriedade de objeto marque "ACLs habilitadas" e em Configurações de bloqueio desmarque "Bloquear todo o acesso público", aceite os termos e clique em criar bucket. Com a bucket criada basta entrar nela e carregar um arquivo ou criar uma pasta.
+
+Permissão para acesso publico de arquivo da bucket -> dentro da bucket entre no arquivo que deseja dar o acesso e vá em permissões, clique em editar e em "Todos (acesso público)" marque as duas opções de leitura.
+ 
 ## Autores
 
 - Camila Coradi - [@CamilaCoradi](https://github.com/CamilaCoradi)
